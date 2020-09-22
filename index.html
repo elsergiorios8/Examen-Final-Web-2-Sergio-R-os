@@ -1,0 +1,411 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collector</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<section id="app">
+     
+     
+     <section class="panel panel-left panel-cover">
+		 
+		 <div class="bg-menu">
+			 Collector
+		 </div>
+		 
+
+			<div class="list list-menu">
+						<ul>
+							<li>
+								<a href="/home/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<i class="material-icons">home</i>
+									</div>
+									<div class="item-inner">
+										Inicio
+									</div>
+
+								</a>
+							</li>
+							<li>
+								<a href="/productos/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">event_available</span>
+									</div>
+									<div class="item-inner">
+										Cartelera
+									</div>
+
+								</a>
+							</li>
+							<li>
+								<a href="/info/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">cake</span>
+									</div>
+									<div class="item-inner">
+										Dulcelería
+									</div>
+
+								</a>
+							</li>
+							<li>
+								<a href="/home/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<i class="material-icons">local_offer</i>
+									</div>
+									<div class="item-inner">
+										Promociones
+									</div>
+
+								</a>
+							</li>
+							<li>
+								<a href="/home/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<i class="material-icons">movie_creation</i>
+									</div>
+									<div class="item-inner">
+										Mis Películas
+									</div>
+
+								</a>
+							</li>
+							<li>
+								<a href="/perfil/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<i class="material-icons">perm_identity</i>
+									</div>
+									<div class="item-inner">
+										Perfil
+									</div>
+
+								</a>
+							</li>
+							<li>
+								<a href="/home/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<i class="material-icons">exit_to_app</i>
+									</div>
+									<div class="item-inner">
+										Salir
+									</div>
+
+								</a>
+							</li>
+							
+						</ul>
+
+					</div>
+
+     </section>
+	
+		
+     
+     <section class="panel panel-right panel-cover">
+     	<h2 class="block-title">Menú Lateral Derecho</h2>
+     </section>
+     
+     
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="right">
+					
+             		<a href="#" class="link panel-open" data-panel=".panel-left">
+             			<span class="material-icons">menu</span>
+             		</a>
+             	</div>
+              	<div class="title">Collector</div>
+            </div>
+          </nav>
+
+
+          <!-- Scrollable page content -->
+          <article class="page-content">
+				
+				<h3 class="block-title">Hola, José Fernando</h3>
+		  		<div class="block">
+		  			<h2 class="block-title-medium">¿Deseas mirar una película?</h2>
+		  		</div>
+			  	
+        		<div class="block">
+        			
+        			
+        			<div class="row categoria-enlace">
+        				<article class="col">
+        					<h3 class="block-title no-margin">Lo del momento...</h3>
+        				</article>
+        				<article class="col text-align-right">
+        					<a href="/productos/" class="link">Ver todos <span class="material-icons">arrow_forward</span></a>
+        				</article>
+        			</div>
+        			
+        			
+        			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/tenet.jpg" class="img-fluid">
+											<h2>Tenet</h2>
+											<h3>Acción, Suspenso</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 70.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/endgame.jpg" class="img-fluid">
+											<h2>Avengers: ENDGAME</h2>
+											<h3>Acción</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 75.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Mulan-807158695-mmed.jpg" class="img-fluid">
+											<h2>Mulan</h2>
+											<h3>Acción, Drama</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 75.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/billandted.jpg" class="img-fluid">
+											<h2>Bill and Ted face the Music</h2>
+											<h3>Acción, Comedia</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 70.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+        			
+					<div class="row categoria-enlace">
+        				<article class="col">
+        					<h3 class="block-title no-margin">En oferta...</h3>
+        				</article>
+        				<article class="col text-align-right">
+        					<a href="/productos/" class="link">Ver todos <span class="material-icons">arrow_forward</span></a>
+        				</article>
+        			</div>
+        			
+        			
+        			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/starwars.jpg" class="img-fluid">
+											<h2>Star Wars: A new hope</h2>
+											<h3>Acción, Suspenso, ciencia ficción</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 45.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/lawrence.jpg" class="img-fluid">
+											<h2>Lawrence of Arabia</h2>
+											<h3>Acción, drama, militar</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 45.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/padrino.jpg" class="img-fluid">
+											<h2>The Godfather</h2>
+											<h3>Acción, Drama, suspenso, crimen</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 45.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/futuro.jpg" class="img-fluid">
+											<h2>Back to the Future</h2>
+											<h3>Acción, Comedia, Ciencia Ficción</h3>
+										</div>
+										<div class="card-footer">
+											<span>L. 45.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+					
+        			
+        		</div>
+         
+          </article>
+			
+        </section><!-- page -->
+		  
+      	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+		  <div class="toolbar-inner">
+			<a href="/home/" class="tab-link">
+			  <i class="material-icons">home</i>
+			  <span class="tabbar-label">Inicio</span>
+			</a>
+			<a href="/productos/" class="tab-link">
+			  <i class="material-icons">movie_creation</i>
+			  <span class="tabbar-label">Películas</span>
+			</a>
+			<a href="/perfil/" class="tab-link">
+			  <i class="material-icons">person</i>
+			  <span class="tabbar-label">Perfil</span>
+			</a>
+		  </div>
+		</div>
+
+      </div><!-- view -->
+		
+    </section>
+	
+	
+	
+	<section id="registro">
+		<div class="popup popup-registro">
+			<h2 class="block-title">Registro</h2>
+			
+			<div class="block">
+				<form>
+				  <div class="list">
+					<ul>
+						<li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Nombre</div>
+						  <div class="item-input-wrap">
+							<input type="text" id="name" name="name" placeholder="Nombre">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Correo electronico</div>
+						  <div class="item-input-wrap">
+							<input type="email" id="email" name="email" placeholder="Email">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+						<li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Telefono</div>
+						  <div class="item-input-wrap">
+							<input type="tel" id="phone" name="phone" placeholder="Telefono">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Contraseña</div>
+						  <div class="item-input-wrap">
+							<input type="password" id="password" name="password" placeholder="Contraseña">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" id="btnRegistro" class="button button-fill">Registrarme</a>
+					  </li>
+					</ul>
+					<div class="block-footer">Ya tengo cuenta <a href="#" class="popup-open" data-popup=".popup-registro">Cancelar</a>.</div>
+				  </div>
+				</form>
+			
+			
+			
+			</div>
+		
+		
+		
+		</div>
+	
+	
+	
+	</section>
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>s
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
